@@ -1,7 +1,7 @@
 import React from "react";
 import EarningCards from "../components/dashboard/EarningCards";
-import LineChart from "../components/dashboard/LineChart";
-import BarChart from "../components/dashboard/BarChart";
+import LineChartt from "../components/dashboard/LineChart";
+import BarChartt from "../components/dashboard/BarChart";
 
 const Dashboard = () => {
   return (
@@ -9,8 +9,8 @@ const Dashboard = () => {
       <div className="container py-10">
         <EarningCards />
         <div className="py-6 flex gap-4 flex-wrap">
-          <LineChart />
-          <BarChart />
+          <LineChartt />
+          <BarChartt />
         </div>
       </div>
     </div>
