@@ -46,7 +46,7 @@ const Navbar = () => {
               <InfoOutlinedIcon />
             </div>
             <Avatar
-              className="border !w-11 !h-11"
+              className="!w-11 !h-11"
               src="https://media.licdn.com/dms/image/C4D03AQF_ROXbwkqAfw/profile-displayphoto-shrink_200_200/0/1647017559647?e=1706140800&v=beta&t=LGteqkHnHvs0oYBqFvY9vgUwQQRH0-Sff8RG4FA31EQ"
             />
           </div>

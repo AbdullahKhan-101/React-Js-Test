@@ -2,15 +2,15 @@ import React from "react";
 import { BarChart } from "@mui/x-charts/BarChart";
 
 const seriesA = {
-  data: [2, 3, 1, 4, 5],
+  data: [2, 3, 1, 4, 5, 4, 2, 6, 4],
   label: "Series A",
 };
 const seriesB = {
-  data: [3, 1, 4, 2, 1],
+  data: [3, 1, 4, 2, 1, 2, 4, 2, 4],
   label: "Series B",
 };
 const seriesC = {
-  data: [3, 2, 4, 5, 1],
+  data: [3, 2, 4, 5, 1, 5, 1, 4, 2],
   label: "Series C",
 };
 const BarChartt = () => {

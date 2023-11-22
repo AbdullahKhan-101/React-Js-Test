@@ -5,10 +5,14 @@ import BarChartt from "../components/dashboard/BarChart";
 import CheckTable from "../components/dashboard/CheckTable";
 import DailyTraffic from "../components/dashboard/DailyTraffic";
 import PieChart from "../components/dashboard/PieChart";
+import ComplexTable from "../components/dashboard/ComplexTable";
+import Tasks from "../components/dashboard/Tasks";
 
 const Dashboard = () => {
   return (
-    <div className="bg-light_bg dark:bg-dark_bg transition dark:text-white">
+    <div
+    //  className="bg-light_bg dark:bg-dark_bg transition dark:text-white"
+    >
       <div className="container py-10">
         <EarningCards />
         <div className="py-6 flex gap-4 flex-wrap lg:flex-row flex-col">
@@ -17,10 +21,11 @@ const Dashboard = () => {
         </div>
         <div className="pb-6 flex gap-4 flex-wrap lg:flex-row flex-col">
           <CheckTable />
-          <div className="flex flex-[.53] gap-4 flex-wrap lg:flex-row flex-col">
-            <DailyTraffic />
-            <PieChart />
-          </div>
+          <DailyTraffic />
+        </div>
+        <div className="pb-6 flex gap-4 flex-wrap lg:flex-row flex-col">
+          <ComplexTable />
+          <Tasks />
         </div>
       </div>
     </div>
