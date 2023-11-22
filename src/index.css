@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .container {
+    @apply mx-auto max-w-screen-2xl w-[94%];
+  }
+  .transition {
+    @apply transition-all duration-300 ease-out;
+  }
+}
