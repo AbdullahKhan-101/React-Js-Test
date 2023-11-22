@@ -1,12 +1,13 @@
 import React from "react";
 import BarChartOutlinedIcon from "@mui/icons-material/BarChartOutlined";
-import MonetizationOnOutlinedIcon from "@mui/icons-material/MonetizationOnOutlined";
+import AttachMoneyOutlinedIcon from "@mui/icons-material/AttachMoneyOutlined";
+
 const EarningCards = () => {
   return (
     <div className="flex items-center flex-wrap justify-center gap-4">
       <Card icon={<BarChartOutlinedIcon />} price="350.4" desc="Earnings" />
       <Card
-        icon={<MonetizationOnOutlinedIcon />}
+        icon={<AttachMoneyOutlinedIcon />}
         price="641.38"
         desc="Spend this month"
       />
@@ -14,7 +15,7 @@ const EarningCards = () => {
       <Card price="1,000" desc="Your balance" />
       <Card icon={<BarChartOutlinedIcon />} price="350.4" desc="Earnings" />
       <Card
-        icon={<MonetizationOnOutlinedIcon />}
+        icon={<AttachMoneyOutlinedIcon />}
         price="641.38"
         desc="Spend this month"
       />
