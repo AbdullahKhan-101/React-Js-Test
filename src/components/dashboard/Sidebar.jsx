@@ -76,7 +76,9 @@ const Sidebar = () => {
           <div
             key={index}
             className={`flex gap-4 items-center cursor-pointer py-1.5 ${
-              index === 0 ? "border-r-4  border-r-purple" : ""
+              index === 0
+                ? "border-r-4  border-r-purple dark:border-r-dark_purple"
+                : ""
             } pl-10`}
           >
             <div

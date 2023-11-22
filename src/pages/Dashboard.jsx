@@ -1,54 +1,11 @@
 import React from "react";
+import EarningCards from "../components/dashboard/EarningCards";
 
 const Dashboard = () => {
   return (
-    <div className="">
-      <div className="container border ">
-        <h1>Dashboard here</h1>
-        <h1>Dashboard here</h1>
-        <h1>Dashboard here</h1>
-        <h1>Dashboard here</h1>
-        <h1>Dashboard here</h1>
-        <h1>Dashboard here</h1>
-        <h1>Dashboard here</h1>
-        <h1>Dashboard here</h1>
-        <h1>Dashboard here</h1>
-        <h1>Dashboard here</h1>
-        <h1>Dashboard here</h1>
-        <h1>Dashboard here</h1>
-        <h1>Dashboard here</h1>
-        <h1>Dashboard here</h1>
-        <h1>Dashboard here</h1>
-        <h1>Dashboard here</h1>
-        <h1>Dashboard here</h1>
-        <h1>Dashboard here</h1>
-        <h1>Dashboard here</h1>
-        <h1>Dashboard here</h1>
-        <h1>Dashboard here</h1>
-        <h1>Dashboard here</h1>
-        <h1>Dashboard here</h1>
-        <h1>Dashboard here</h1>
-        <h1>Dashboard here</h1>
-        <h1>Dashboard here</h1>
-        <h1>Dashboard here</h1>
-        <h1>Dashboard here</h1>
-        <h1>Dashboard here</h1>
-        <h1>Dashboard here</h1>
-        <h1>Dashboard here</h1>
-        <h1>Dashboard here</h1>
-        <h1>Dashboard here</h1>
-        <h1>Dashboard here</h1>
-        <h1>Dashboard here</h1>
-        <h1>Dashboard here</h1>
-        <h1>Dashboard here</h1>
-        <h1>Dashboard here</h1>
-        <h1>Dashboard here</h1>
-        <h1>Dashboard here</h1>
-        <h1>Dashboard here</h1>
-        <h1>Dashboard here</h1>
-        <h1>Dashboard here</h1>
-        <h1>Dashboard here</h1>
-        <h1>Dashboard here</h1>
+    <div className="bg-light_bg dark:bg-dark_bg transition dark:text-white">
+      <div className="container py-10">
+        <EarningCards />
       </div>
     </div>
   );
