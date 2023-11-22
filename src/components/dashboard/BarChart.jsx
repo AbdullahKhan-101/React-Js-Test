@@ -15,7 +15,7 @@ const seriesC = {
 };
 const BarChartt = () => {
   return (
-    <div className="flex-1 rounded-2xl p-6 dark:bg-dark_primary bg-white">
+    <div className="flex-1 rounded-2xl p-6 dark:bg-dark_primary bg-white transition">
       <BarChart
         // width={600}
         height={300}

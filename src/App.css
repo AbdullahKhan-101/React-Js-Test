@@ -1,0 +1,18 @@
+/* bar chart */
+.css-1vuxth3-MuiBarElement-root {
+  fill: #7551ff !important;
+}
+.css-6kig8r-MuiBarElement-root {
+  fill: #6ad2ff !important;
+}
+.css-156rdpn-MuiBarElement-root {
+  fill: #dde6fb !important;
+}
+/* line chart */
+.css-wn5hww-MuiLineElement-root {
+  stroke: #7551ff !important;
+}
+
+.MuiChartsAxis-root .MuiChartsAxis-directionY path {
+  stroke: #7551ff !important;
+}

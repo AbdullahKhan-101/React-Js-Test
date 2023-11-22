@@ -4,7 +4,7 @@ import { Hidden } from "@mui/material";
 
 const LineChartt = () => {
   return (
-    <div className="flex-1 rounded-2xl p-6 dark:bg-dark_primary bg-white">
+    <div className="flex-1 rounded-2xl p-6 dark:bg-dark_primary bg-white transition">
       <LineChart
         xAxis={[{ data: [1, 2, 3, 5, 8, 10] }]}
         series={[
