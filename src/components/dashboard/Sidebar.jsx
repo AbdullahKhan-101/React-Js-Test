@@ -56,17 +56,17 @@ const Sidebar = () => {
 
   return (
     <div
-      className={`transition duration-500 bg-white z-[11] fixed top-0 left-0 h-screen ${
+      className={`transition duration-500 bg-white dark:bg-dark_primary z-[11] fixed top-0 left-0 h-screen ${
         menu ? "w-[300px]  translate-x-[0px] " : " -translate-x-[300px]"
       }`}
     >
       <div className="border-b relative border-b-light_bg py-10 px-16 ">
-        <h2 className="lg:text-4xl text-3xl font-bold text-primary tracking-tight">
+        <h2 className="lg:text-4xl text-3xl font-bold text-primary dark:text-white tracking-tight">
           Visric
         </h2>
         <div
           onClick={() => setMenu(false)}
-          className="absolute block w-7 h-7 xl:hidden top-6 right-4 cursor-pointer  text-primary"
+          className="absolute dark:text-white block w-7 h-7 xl:hidden top-6 right-4 cursor-pointer  text-primary"
         >
           <CancelOutlinedIcon />
         </div>
@@ -81,14 +81,18 @@ const Sidebar = () => {
           >
             <div
               className={`w-6 h-6 ${
-                index === 0 ? "text-purple" : "text-light_blue"
+                index === 0
+                  ? "text-purple dark:text-white"
+                  : "text-light_blue dark:text-white"
               } `}
             >
               {icon}
             </div>
             <p
               className={`font-semibold text-lg ${
-                index === 0 ? "text-primary" : "text-light_blue"
+                index === 0
+                  ? "text-primary dark:text-white"
+                  : "text-light_blue dark:text-white"
               } `}
             >
               {name}

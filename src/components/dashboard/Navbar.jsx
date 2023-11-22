@@ -12,7 +12,7 @@ const Navbar = () => {
   const { menu, setMenu } = useStateContext();
 
   return (
-    <div className="bg-light_bg dark:bg-dark_bg">
+    <div className="bg-light_bg dark:bg-dark_bg transition duration-500">
       <div className="container">
         <div className="flex py-4 item-center justify-between">
           <div className="flex items-center lg:gap-4 gap-2">
@@ -28,16 +28,16 @@ const Navbar = () => {
           </div>
           <div></div>
 
-          <div className="flex items-center rounded-full lg:gap-4 gap-2 lg:bg-white lg:p-3 p-1.5">
-            <div className="bg-light_bg rounded-2xl hidden lg:flex px-3 gap-2 items-center">
+          <div className="flex items-center rounded-full lg:gap-4 gap-2 lg:bg-white lg:dark:bg-dark_primary lg:p-3 p-1.5">
+            <div className="bg-light_bg dark:bg-dark_bg rounded-2xl hidden lg:flex px-3 gap-2 items-center">
               <SearchIcon className="text-primary dark:text-white" />
               <input
                 type="text"
                 placeholder="Search"
-                className="py-2 border-none outline-none bg-transparent"
+                className="py-2 border-none dark:text-white outline-none bg-transparent"
               />
             </div>
-            <div className="flex item-center lg:gap-4 gap-2 text-light_blue">
+            <div className="flex item-center lg:gap-4 gap-2 text-light_blue dark:text-white">
               <NotificationsNoneOutlinedIcon />
               <NightlightRoundIcon
                 onClick={themeSwitch}
