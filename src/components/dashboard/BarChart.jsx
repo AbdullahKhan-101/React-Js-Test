@@ -2,7 +2,7 @@ import React from "react";
 import { BarChart } from "@mui/x-charts/BarChart";
 
 const seriesA = {
-  data: [2, 3, 1, 4, 5, 1, 3, 2, 5, 1, 2],
+  data: [2, 3, 1, 4, 5],
   label: "Series A",
 };
 const seriesB = {
@@ -17,7 +17,7 @@ const BarChartt = () => {
   return (
     <div className="flex-1 rounded-2xl p-6 dark:bg-dark_primary bg-white">
       <BarChart
-        //   width={600}
+        // width={600}
         height={300}
         series={[
           { ...seriesA, stack: "total" },
