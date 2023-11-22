@@ -56,11 +56,11 @@ const Sidebar = () => {
 
   return (
     <div
-      className={`transition duration-500 bg-white dark:bg-dark_primary z-[11] fixed top-0 left-0 h-screen ${
+      className={`transition  bg-white dark:bg-dark_primary z-[11] fixed top-0 left-0 h-screen ${
         menu ? "w-[300px]  translate-x-[0px] " : " -translate-x-[300px]"
       }`}
     >
-      <div className="border-b relative border-b-light_bg py-10 px-16 ">
+      <div className="border-b relative border-b-light_bg dark:border-b-light_bg/10 py-10 px-16 ">
         <h2 className="lg:text-4xl text-3xl font-bold text-primary dark:text-white tracking-tight">
           Visric
         </h2>

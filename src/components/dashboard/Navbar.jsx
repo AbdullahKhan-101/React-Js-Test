@@ -12,7 +12,7 @@ const Navbar = () => {
   const { menu, setMenu } = useStateContext();
 
   return (
-    <div className="bg-light_bg dark:bg-dark_bg transition duration-500">
+    <div className="bg-light_bg dark:bg-dark_bg transition ">
       <div className="container">
         <div className="flex py-4 item-center justify-between">
           <div className="flex items-center lg:gap-4 gap-2">

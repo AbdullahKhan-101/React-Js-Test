@@ -7,6 +7,6 @@
     @apply mx-auto max-w-screen-2xl w-[94%];
   }
   .transition {
-    @apply transition-all duration-300 ease-out;
+    @apply transition-all !duration-500 ease-out;
   }
 }
