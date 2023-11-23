@@ -14,6 +14,7 @@ module.exports = {
         dark_light_bg: "#1B254B",
         blue: "#707EAE",
         light_blue: "#A3AED0",
+        success: "#01B574",
       },
     },
   },
