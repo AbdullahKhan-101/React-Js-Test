@@ -6,10 +6,9 @@ import NightlightRoundIcon from "@mui/icons-material/NightlightRound";
 import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
 import MenuIcon from "@mui/icons-material/Menu";
 import { useStateContext } from "../../context/StateContext";
-import { themeSwitch } from "../../theme";
 
 const Navbar = () => {
-  const { menu, setMenu } = useStateContext();
+  const { setMenu, themeSwitch } = useStateContext();
 
   return (
     <div className="bg-light_bg dark:bg-dark_bg transition ">

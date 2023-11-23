@@ -11,6 +11,7 @@ const CountryDropdown = () => {
       <div className="relative mt-1">
         <Listbox.Button className="relative flex items-center justify-between gap-2 w-full cursor-pointer rounded-lg bg-transparent py-2 px-2 text-left">
           <img
+            alt="country-img"
             src={`https://flagcdn.com/w80/${selected.name.toLowerCase()}.png`}
             className={` w-10 h-10 rounded-full`}
           />
@@ -42,6 +43,7 @@ const CountryDropdown = () => {
                   <div className="flex items-center gap-2">
                     <img
                       src={`https://flagcdn.com/w80/${person.name.toLowerCase()}.png`}
+                      alt="country-img"
                       className={`block w-6 h-4`}
                     />
                     <span className={`block ${selected && "font-bold"}`}>
