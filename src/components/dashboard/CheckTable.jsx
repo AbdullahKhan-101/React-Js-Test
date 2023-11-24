@@ -73,7 +73,7 @@ const rows = [
 const CheckTable = () => {
   return (
     <div className="flex-1 custom_scroll rounded-2xl overflow-x-auto p-6 dark:bg-dark_primary bg-white transition">
-      <div className="flex justify-between gap-2 items-center mb-4">
+      <div className="flex justify-between gap-2 items-center mb-2">
         <h2 className="text-[26px] dark:text-white text-primary transition font-semibold ">
           Check Table
         </h2>

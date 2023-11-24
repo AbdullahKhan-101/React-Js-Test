@@ -17,8 +17,13 @@ const Dashboard = () => {
         <BarChartt />
       </div>
       <div className="pb-6 flex gap-4 flex-wrap lg:flex-row flex-col">
-        <CheckTable />
-        <DailyTraffic />
+        <div className="flex-1 flex gap-4 flex-wrap lg:flex-row flex-col">
+          <CheckTable />
+        </div>
+        <div className="flex-1 flex gap-4 flex-wrap lg:flex-row flex-col">
+          <DailyTraffic />
+          <PieChart />
+        </div>
       </div>
       <div className="pb-6 flex gap-4 flex-wrap lg:flex-row flex-col">
         <ComplexTable />
