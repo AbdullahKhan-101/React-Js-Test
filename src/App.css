@@ -22,12 +22,16 @@
 }
 
 /* bar chart label */
-.css-1u0lry5-MuiChartsLegend-root {
+.css-1u0lry5-MuiChartsLegend-root,
+.MuiChartsAxis-line {
   display: none;
 }
 
 /* line and bar chart */
 .css-1k2u9zb-MuiChartsAxis-root .MuiChartsAxis-tickLabel {
+  fill: #a3aed0 !important;
+}
+.MuiChartsAxis-tickLabel {
   fill: #a3aed0 !important;
 }
 
@@ -38,21 +42,29 @@
 .css-1k2u9zb-MuiChartsAxis-root .MuiChartsAxis-tick {
   display: none !important;
 }
+.MuiChartsLegend-row,
+.MuiChartsLegend-series {
+  display: none !important;
+}
 .css-ptkaw2-MuiDataGrid-root .MuiDataGrid-withBorderColor {
   border: none !important;
 }
-.css-ptkaw2-MuiDataGrid-root {
+.css-ptkaw2-MuiDataGrid-root,
+.css-aop0yh,
+.MuiDataGrid-withBorderColor {
   border: none !important;
 }
 .MuiDataGrid-cellContent {
   color: #8694be !important;
   font-size: 16px !important;
 }
-.css-t89xny-MuiDataGrid-columnHeaderTitle {
+.css-t89xny-MuiDataGrid-columnHeaderTitle,
+.css-k008qs {
   color: #8694be;
   font-size: 16px !important;
 }
-.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root {
+.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root,
+.css-zun73v {
   color: #7551ff !important;
 }
 .css-de9k3v-MuiDataGrid-selectedRowCount,
@@ -60,6 +72,7 @@
 .css-zylse7-MuiButtonBase-root-MuiIconButton-root.Mui-disabled {
   color: #8694be !important;
 }
+
 .custom_scroll {
   /* width and height of the scrollbar */
   scrollbar-width: thin;

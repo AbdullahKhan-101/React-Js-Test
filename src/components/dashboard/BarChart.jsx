@@ -17,7 +17,7 @@ const seriesC = {
 };
 const BarChartt = () => {
   return (
-    <div className="flex-1 rounded-2xl p-6 dark:bg-dark_primary bg-white transition">
+    <div className="flex-1 rounded-2xl sm:p-6 p-4 dark:bg-dark_primary bg-white transition">
       <div className="flex justify-between gap-2 items-center mb-4">
         <h2 className="text-[26px] dark:text-white text-primary transition font-semibold ">
           Weekly Revenue

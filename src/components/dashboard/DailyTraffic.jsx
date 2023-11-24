@@ -12,7 +12,7 @@ const seriesA = {
 const DailyTraffic = () => {
   return (
     <div className="flex-1 rounded-2xl  dark:bg-dark_primary bg-white transition">
-      <div className="flex justify-between p-6 gap-2 items-center">
+      <div className="flex justify-between sm:p-6 p-4 gap-2 items-center">
         <div>
           <p className="text-light_blue text-sm font-medium mt-1">
             Daily Traffic

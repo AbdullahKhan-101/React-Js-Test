@@ -15,7 +15,7 @@ const countries = [
 const LineChartt = () => {
   const [selected, setSelected] = useState(countries[0]);
   return (
-    <div className="flex-1 rounded-2xl p-6 dark:bg-dark_primary bg-white transition dark:text-white text-primary">
+    <div className="flex-1 rounded-2xl sm:p-6 p-4 dark:bg-dark_primary bg-white transition dark:text-white text-primary">
       <div className="flex justify-between gap-2 items-center">
         <div className="z-10">
           <Listbox value={selected} onChange={setSelected}>
