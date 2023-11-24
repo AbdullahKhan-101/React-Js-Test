@@ -69,7 +69,12 @@
 }
 .css-de9k3v-MuiDataGrid-selectedRowCount,
 .css-rtrcn9-MuiTablePagination-root,
-.css-zylse7-MuiButtonBase-root-MuiIconButton-root.Mui-disabled {
+.css-zylse7-MuiButtonBase-root-MuiIconButton-root.Mui-disabled,
+.MuiToolbar-root {
+  color: #8694be !important;
+}
+
+.MuiTablePagination-actions .css-1deacqj.Mui-disabled {
   color: #8694be !important;
 }
 
