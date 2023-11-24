@@ -36,7 +36,7 @@ const PieChartt = () => {
           height={200}
         />
       </div>
-      <div className="px-2 py-6 flex bg-[#1B254B] mt-6 items-center rounded-2xl w-full justify-center">
+      <div className="px-2 py-6 flex dark:bg-[#1B254B] bg-transparent mt-6 items-center rounded-2xl w-full justify-center">
         <div className="border-r flex gap-2 border-r-primary px-10 ">
           <div className="w-[10px] h-[10px] rounded-full bg-dark_purple mt-[3px]"></div>
           <div>
@@ -49,9 +49,9 @@ const PieChartt = () => {
         <div className=" flex gap-2 px-10">
           <div className="w-[10px] h-[10px] rounded-full bg-light_cyan mt-[3px]"></div>
           <div>
-            <p className="text-light_blue font-medium leading-3">Your files</p>
+            <p className="text-light_blue font-medium leading-3">Systems</p>
             <p className="text-primary transition dark:text-white mt-1 text-2xl font-semibold">
-              63%
+              25%
             </p>
           </div>
         </div>

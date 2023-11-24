@@ -85,7 +85,8 @@
 }
 
 /* pie chart */
-.css-1mhcdve-MuiPieArc-root {
+.css-1mhcdve-MuiPieArc-root,
+.css-1b95g7z {
   stroke-width: 0 !important;
 }
 .MuiPieArc-series-auto-generated-id-10 {

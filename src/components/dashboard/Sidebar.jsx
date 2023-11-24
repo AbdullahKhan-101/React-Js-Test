@@ -1,4 +1,3 @@
-import { IconButton } from "@mui/material";
 import React, { useEffect } from "react";
 import HomeIcon from "@mui/icons-material/Home";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
