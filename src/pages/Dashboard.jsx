@@ -16,8 +16,8 @@ const Dashboard = () => {
         <LineChartt />
         <BarChartt />
       </div>
-      <div className="pb-6 flex gap-4 flex-wrap lg:flex-row flex-col">
-        <div className="flex-1 flex gap-4 flex-wrap lg:flex-row flex-col">
+      <div className="pb-6 flex gap-4 flex-row flex-wrap break_point">
+        <div className="flex-1">
           <CheckTable />
         </div>
         <div className="flex-1 flex gap-4 flex-wrap lg:flex-row flex-col">

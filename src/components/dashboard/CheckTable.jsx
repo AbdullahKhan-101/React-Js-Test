@@ -83,7 +83,7 @@ const CheckTable = () => {
       </div>
       <Box
         className="!text-white !border-none !outline-none "
-        sx={{ height: 400, width: "100%" }}
+        sx={{ height: 400 }}
       >
         <DataGrid
           rows={rows}

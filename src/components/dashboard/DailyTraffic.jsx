@@ -1,7 +1,6 @@
 import React from "react";
 import ArrowDropUpIcon from "@mui/icons-material/ArrowDropUp";
 import { BarChart } from "@mui/x-charts/BarChart";
-import BarChartOutlinedIcon from "@mui/icons-material/BarChartOutlined";
 import { DEFAULT_X_AXIS_KEY } from "@mui/x-charts";
 
 const seriesA = {

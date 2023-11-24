@@ -1,3 +1,9 @@
+@media (max-width: 1800px) {
+  .break_point {
+    flex-direction: column;
+  }
+}
+
 /* bar chart */
 .css-1vuxth3-MuiBarElement-root,
 .css-1mht7iu {
@@ -76,6 +82,20 @@
 
 .MuiTablePagination-actions .css-1deacqj.Mui-disabled {
   color: #8694be !important;
+}
+
+/* pie chart */
+.css-1mhcdve-MuiPieArc-root {
+  stroke-width: 0 !important;
+}
+.MuiPieArc-series-auto-generated-id-10 {
+  /* fill: #7551ff !important; */
+}
+.MuiPieArc-series-auto-generated-id-0 {
+  /* fill: #39b8ff !important; */
+}
+.css-nbv3vr-MuiResponsiveChart-container g g g:nth-child(1) {
+  /* fill: red; */
 }
 
 .custom_scroll {
