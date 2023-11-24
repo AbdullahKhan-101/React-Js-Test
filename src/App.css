@@ -12,10 +12,78 @@
   fill: #dde6fb !important;
 }
 /* line chart */
-.css-wn5hww-MuiLineElement-root {
+.css-wn5hww-MuiLineElement-root,
+.css-1b3bmv {
   stroke: #7551ff !important;
 }
 
 .MuiChartsAxis-root .MuiChartsAxis-directionY path {
   stroke: #7551ff !important;
+}
+
+/* bar chart label */
+.css-1u0lry5-MuiChartsLegend-root {
+  display: none;
+}
+
+/* line and bar chart */
+.css-1k2u9zb-MuiChartsAxis-root .MuiChartsAxis-tickLabel {
+  fill: #a3aed0 !important;
+}
+
+/* graph outline lines */
+.css-1k2u9zb-MuiChartsAxis-root .MuiChartsAxis-line {
+  display: none !important;
+}
+.css-1k2u9zb-MuiChartsAxis-root .MuiChartsAxis-tick {
+  display: none !important;
+}
+.css-ptkaw2-MuiDataGrid-root .MuiDataGrid-withBorderColor {
+  border: none !important;
+}
+.css-ptkaw2-MuiDataGrid-root {
+  border: none !important;
+}
+.MuiDataGrid-cellContent {
+  color: #8694be !important;
+  font-size: 16px !important;
+}
+.css-t89xny-MuiDataGrid-columnHeaderTitle {
+  color: #8694be;
+  font-size: 16px !important;
+}
+.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root {
+  color: #7551ff !important;
+}
+.css-de9k3v-MuiDataGrid-selectedRowCount,
+.css-rtrcn9-MuiTablePagination-root,
+.css-zylse7-MuiButtonBase-root-MuiIconButton-root.Mui-disabled {
+  color: #8694be !important;
+}
+.custom_scroll {
+  /* width and height of the scrollbar */
+  scrollbar-width: thin;
+  scrollbar-color: #8694be #dde6fb;
+
+  /* Track styles */
+  ::-webkit-scrollbar {
+    width: 12px;
+    height: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: #dde6fb;
+    border-radius: 12px;
+  }
+
+  /* Handle styles */
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(140, 140, 250);
+    border-radius: 6px;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #dde6fb;
+  }
 }
